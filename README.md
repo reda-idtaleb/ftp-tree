@@ -91,4 +91,5 @@ And here is part of the generated ubuntu_ftp.json file:
             "pathname": "/cloud-images",
             "files": []
         },
+        ...
 ```
