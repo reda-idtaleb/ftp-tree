@@ -62,3 +62,33 @@ The result is:
 
 The .json file is exported to: /home/idtaleb/Desktop/tree-ftp/ubuntu_ftp.json
 ```
+
+And here is part of the generated ubuntu_ftp.json file:
+```json
+{
+    "fileType": "DIRECTORY_FILE",
+    "name": "/",
+    "userRights": "rwx",
+    "groupRights": "rwx",
+    "otherRights": "rwx",
+    "pathname": "/",
+    "files": [
+        {
+            "fileType": "DIRECTORY_FILE",
+            "name": "cdimage",
+            "userRights": "rwx",
+            "groupRights": "r-x",
+            "otherRights": "r-x",
+            "pathname": "/cdimage",
+            "files": []
+        },
+        {
+            "fileType": "DIRECTORY_FILE",
+            "name": "cloud-images",
+            "userRights": "rwx",
+            "groupRights": "r-x",
+            "otherRights": "r-x",
+            "pathname": "/cloud-images",
+            "files": []
+        },
+```
