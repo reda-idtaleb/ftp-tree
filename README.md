@@ -36,9 +36,13 @@ The program takes several arguments, but almost one argument is necessery: the s
 To view the conception of the project there is the [UML diagram ](docs/tree-ftp-uml.png).
 
 # Example of running
+Running the following command
 ```
 java -jar target/tree-ftp-0.0.1-SNAPSHOT.jar ftp.ubuntu.com -d 1 -json ubuntu_ftp.json
+```
 
+The result is:
+```
 >> Establishing connection to FTP server...
 >> Login success!
 >> Building the FTP tree in progress...
